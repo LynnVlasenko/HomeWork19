@@ -9,7 +9,7 @@ import Foundation
 
 class Network {
     
-    static var shared = Network()
+    static let shared = Network()
     
     func loadColorData() {
         
