@@ -15,6 +15,6 @@ class ViewController: UIViewController {
     
     @IBAction func LoadColorsDataButton(_ sender: Any) {
         
-        Network.shared.loadColorData()
+        Network.shared.fetchColors()
     }
 }
